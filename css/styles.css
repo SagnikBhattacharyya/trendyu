@@ -1,0 +1,185 @@
+
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6 {
+   font-style: "Montserra-Bold";
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+
+/* Containers */
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section{
+  background-color: #ff4c68;
+  color:#fff;
+}
+
+.white-section{
+  background-color: #fff;
+}
+
+/* Headings */
+
+.heading1{
+  font-family: "Montserrat-Bold";
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: bold;
+
+}
+
+
+/* Navbar */
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+
+/* Download Button */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+
+/* Title Section */
+
+#title{
+
+  text-align: left;
+}
+
+#title .container-fluid{
+  padding:3% 15% 7%;
+}
+
+
+
+/* Title Image*/
+.title-image {
+  width: 20%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* Features */
+#features {
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-title{
+  font-size:1.5rem;
+  font-weight: bolder;
+}
+
+.feature-box {
+  padding: 5%;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon-hover {
+  color: #ff4c68;
+}
+
+/* Testimonial Section */
+#testimonials {
+
+  background-color: #ef8172;
+}
+
+.testimonial-image {
+  width: 15%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+
+
+/* Press Section */
+#press {
+
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 12%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+#pricing {
+  padding: 100px;
+
+}
+
+.pricing-column {
+  padding: 3%;
+}
+
+/* cta section */
+
+.cta-head {
+  font-family: "Montserrat-Black";
+  font-weight: bolder;
+  font-size: 4rem;
+}
+
+/* Footer Section */
+
+
+.social-icon{
+  padding:20px 10px;
+}
+
+
+
+@media (max-width: 1028px) {
+  .title-image {
+    position: static;
+    transform: rotate(0);
+    width: 40%;
+  }
+
+  #title {
+    text-align: center;
+  }
+}
